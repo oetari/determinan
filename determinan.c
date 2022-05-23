@@ -2,11 +2,11 @@
 
 int main(void)
 {
-	double A[4][4],det=1,temp1utm,tempBwh1utm,temp;
+	double A[10][10],det=1,temp1utm,tempBwh1utm,temp;
 
 	int i,j,k,baris,brs1utm, bwh1utm,kolom,cari1utm,size;
 
-	printf("Ukuran matriks nxn yang akan dihitung determinannya adalah : ");
+	printf("Ukuran matriks nxn yang akan dihitung determinannya adalah (<= 10)  : ");
 	scanf ("%d",&size);
 
 	printf("\nInput anggota matriks %dx%d ",size,size);
